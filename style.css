@@ -120,3 +120,29 @@ footer a {
     padding: 5px;
     font-size: 15px;
 }
+
+/* Mobile View */
+@media (max-width: 600px) {
+    .section-description,
+    .contact-description,
+    .contact-form {
+        padding: 20px;
+        width: auto;
+    }
+
+    .contact-form {
+        padding-bottom: 100px;
+    }
+
+    .section-photo img {
+        height: 300px;
+    }
+
+    .contact-form {
+        height: auto;
+    }
+
+    header a {
+        padding-left: 20px;
+    }
+}
